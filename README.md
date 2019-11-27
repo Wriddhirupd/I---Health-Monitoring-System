@@ -26,6 +26,17 @@ To make the whole system automated, we included the automatic appointment system
 6. Spyder/ Jupyter Notebook.
 7. Java IDE.
 
+# How to use the codes
+
+1. Check the circuit diagram as given as per code.
+2. Run the Arduino_side.ino code.
+3. Change the device type in IDE to Nodemcu 12E and change the COM port.
+4. Run the NodeMCU_side.ino code.
+5. Check the data in bluetooth terminal hc05 app.
+6. Check the data in thingspeak site and thingview app.
+7. Run the appointment_system.txt code in java IDE and create your own appointment system.
+
+
 # Highlights of the project
 
 1. Collecting data instantaneously from the sensors.
