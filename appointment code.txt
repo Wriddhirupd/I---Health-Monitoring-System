@@ -1,0 +1,66 @@
+import java.util.*;
+public class Par
+{
+	String name;
+	int age;
+	int app;
+	Par(String n,int a,int k)
+	{
+		name=n;
+		age=a;
+		app=k;
+	}
+	String getName()
+	{
+		return name;
+	}
+	int getAge()
+	{
+		return age;
+	}
+	int getApp()
+	{
+		return app;
+	}
+}
+class Patient
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		Queue<Par> q=new LinkedList<>();
+		while(true)
+		{
+		System.out.println("Press 1 to get appointment \nPress 2 if a patient has gone inside the clinic \nPress 3 to view the Appointment List");
+		int ch = sc.nextInt();
+		switch(ch)
+		{
+			case 1:
+			System.out.println("Enter Name: ");
+			String s=sc.next();
+			System.out.println("Enter Age: ");
+			int ag=sc.nextInt();
+			int sz=q.size()+1;
+			q.add(new Par(s,ag,sz));
+			System.out.println("Your appointment number is: "+q.size());
+			break;
+			
+			case 2:
+			Par p=q.poll();
+			System.out.println("Outgoing patient details:");
+			System.out.println(p.getName()+","+p.getAge());
+			break;
+			
+			case 3:
+			System.out.println("PATIENT APPOINTMEN DETAILS");
+			for(Par t:q)
+			{
+				System.out.println("Name: "+t.getName()+" , Age: "+t.getAge()+", App. No.: "+t.getApp());
+			}
+			break;
+			default:
+			System.out.println("Wrong choice");
+		}
+		}
+	}
+}
