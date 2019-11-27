@@ -2,8 +2,11 @@
 
 # Abstract
 
-My objective is to automatically send the patient’s data to the doctor by the help of different sensors so that it can be examined. To make it more compact, the doctor will have an option to see different data at different points of time. The wireless communication between the Node MCU and the Arduino Uno is made through HC-05 Bluetooth module. This part of the system transfers the data of the sensors from the patient side (Node MCU) to the doctor’s side (Arduino). The doctor can also view the data through the mobile application when he is not in his chamber. For extreme conditions of the sensor readings, an alarming situation is also implemented using buzzers and notifications to the doctor.
-To make the whole system automated, we included the automatic appointment system, where the doctor appointments can be made without the involvement of any personnel. Also, the various data on the prescription which has to be written by the doctor can now be sent by e-mail to the patient party.
+My objective is to automatically send the patient’s data to the doctor by the help of different sensors so that it can be examined. To make it more compact, the doctor will have an option to see different data at different points of time. The wireless communication between the Node MCU and the Arduino Uno is made through HC-05 Bluetooth module. This part of the system transfers the data of the sensors from the patient side (Node MCU) to the doctor’s side (Arduino). 
+
+The doctor can also view the data through the mobile application when he is not in his chamber. For extreme conditions of the sensor readings, an alarming situation is also implemented using buzzers and notifications to the doctor.
+
+To make the whole system automated, we included the automatic appointment system, where the doctor appointments can be made without the involvement of any personnel. Also, the various data on the prescription which has to be written by the doctor can now be sent by e-mail to the patient family.
 
 # Components Used
 
