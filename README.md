@@ -33,3 +33,7 @@ To make the whole system automated, we included the automatic appointment system
 6. Automatic push EMail facility as prescription format.
 7. Fast and efficient digitised method for automation.
 8. Create a patient appointment system using Queue data structure.
+
+# References
+instructables.com
+github.com
