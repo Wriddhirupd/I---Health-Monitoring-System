@@ -3,7 +3,7 @@
 
 @author: Wriddhirup Dutta
 """
-
+# Enable less secure apps in Google account settings for allowing SMTP connection to google 
 import email, smtplib, ssl
 
 from email import encoders
@@ -12,10 +12,10 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 subject = "An email with attachment from Python"
-body = "This is an email with attachment sent from Python"
-sender_email = "wriddhirupdutta147@gmail.com"
-receiver_email = "iwriddhirupd147@gmail.com"
-password = input("Type your password and press enter:")
+body = "This is an email with attachment sent from Python as prescription"
+sender_email = "sender mail"
+receiver_email = "reciever mail"
+password = input("Type your email password and press enter:")
 
 # Create a multipart message and set headers
 message = MIMEMultipart()
