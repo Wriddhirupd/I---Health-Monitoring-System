@@ -21,6 +21,7 @@ To make the whole system automated, we included the automatic appointment system
 3. Bluetooth terminal app (AN bluetooth app).
 4. Thingview App.
 6. Spyder/ Jupyter Notebook.
+7. Java IDE
 
 # Highlights of the project
 
@@ -31,3 +32,4 @@ To make the whole system automated, we included the automatic appointment system
 5. viewing the data in chat format using ThingView App.
 6. Automatic push EMail facility as prescription format.
 7. Fast and efficient digitised method for automation.
+8. Create a patient appointment system using Queue data structure.
