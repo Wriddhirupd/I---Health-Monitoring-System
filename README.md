@@ -18,10 +18,10 @@ To make the whole system automated, we included the automatic appointment system
 
 1. Arduino IDE.
 2. Thinspeak Cloud.
-3. Bluetooth terminal app (AN bluetooth app).
+3. Bluetooth terminal app (Any bluetooth app).
 4. Thingview App.
 6. Spyder/ Jupyter Notebook.
-7. Java IDE
+7. Java IDE.
 
 # Highlights of the project
 
